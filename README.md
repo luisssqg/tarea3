@@ -1,36 +1,28 @@
-📌 Descripción
+Descripción
 
-Este proyecto implementa una red neuronal desde cero utilizando NumPy. Se entrena un modelo de clasificación en un conjunto de datos generado con scikit-learn.
+Este proyecto implementa una red neuronal utilizando NumPy, sin depender de frameworks como TensorFlow o PyTorch.
 
-📂 Estructura del Proyecto
+El código ejecuta el entrenamiento de la red neuronal definida en el módulo neural_1 dentro del paquete Neural_Network_numpy.src.numpy_nn.
 
-📂 Neural_Network_numpy/
-├── 📂 src/
+Estructura del Proyecto
+
+Neural_Network_numpy/
+│── src/
 │   ├── numpy_nn.py  # Implementación de la red neuronal
-├── main.py         # Script principal para ejecutar la red neuronal
-├── README.md       # Documentación del proyecto
+│── main.py           # Script principal de ejecución
+│── README.md         # Documentación del proyecto
 
-🛠️ Instalación
+Instalación y Requisitos
 
-Asegúrate de tener Python y las siguientes dependencias instaladas:
+Asegúrate de tener Python 3.x instalado y ejecutar:
 
-pip install numpy matplotlib scikit-learn
+pip install -r requirements.txt  # Si hay dependencias adicionales
 
-🚀 Uso
+Uso
 
-Ejecuta el siguiente comando para iniciar el entrenamiento de la red neuronal:
+Para ejecutar el entrenamiento de la red neuronal, corre el siguiente comando:
 
 python main.py
 
-El script generará gráficos de entrenamiento y prueba, mostrando la evolución del error y la clasificación de datos.
-
-📈 Funcionalidad
-
-Implementación de una red neuronal desde cero con NumPy.
-
-Funciones de activación: Sigmoid, ReLU y TanH.
-
-Algoritmo de retropropagación para el ajuste de pesos.
-
-Visualización de datos antes y después del entrenamiento.
+Esto mostrará mensajes indicando el inicio y finalización del entrenamiento.
 
